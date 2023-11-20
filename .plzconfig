@@ -1,0 +1,8 @@
+[Please]
+Version = 17.3.1
+
+[Plugin "go"]
+Target = //plugins:go
+GoTool = //third_party/go:toolchain|go
+DelveTool = ///third_party/go/github.com_go-delve_delve//cmd/dlv
+ModFile = //:gomod
